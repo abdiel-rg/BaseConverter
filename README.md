@@ -138,7 +138,7 @@ return reduce(
 ...
 )
 ```
--  Una función [^1], repetida por cada elemento de `string_list`, que recibe dos parámetros:
+-  Una funció~n~ [^1], repetida por cada elemento de `string_list`, que recibe dos parámetros:
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
 	
