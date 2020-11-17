@@ -171,7 +171,7 @@ return reduce(
 	6
 	```
 	
--  Un método^[^3] que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
+-  Un método<sup>[^3]</sup> que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
 	```python
 	enumerate(string_list)
 	```
