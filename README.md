@@ -1,35 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+title: README.md
+extensions:
+  preset: gfm
+markdown:
+  abbr: true
+  breaks: true
+  deflist: true
+  del: true
+  fence: true
+  footnote: true
+  imgsize: true
+  linkify: true
+  mark: true
+  sub: true
+  sup: true
+  table: true
+  tasklist: true
+  typographer: true
+emoji:
+  enabled: true
+  shortcuts: true
+katex:
+  enabled: true
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
+---
 
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#conversor-de-sistemas-numéricos-en-python-snake">Conversor de Sistemas Numéricos en Python 🐍</a>
-<ul>
-<li><a href="#convirtiendo-de-decimal-a-cualquier-base">Convirtiendo de Decimal a cualquier Base</a></li>
-<li><a href="#convirtiendo-de-cualquier-base-a-decimal">Convirtiendo de cualquier Base a Decimal</a></li>
-<li><a href="#evitando-errores">Evitando errores</a></li>
-<li><a href="#combinando-todo">Combinando todo</a></li>
-<li><a href="#sobrecargando-la-función-converter">Sobrecargando la función converter</a></li>
-<li><a href="#programa-completo">Programa Completo</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="conversor-de-sistemas-numéricos-en-python-snake">Conversor de Sistemas Numéricos en Python 🐍</h1>
+<h1 id="conversor-de-sistemas-numéricos-en-python-snake">Conversor de Sistemas Numéricos en Python 🐍</h1>
 <p>Primero, importamos los módulos necesarios para el funcionamiento del programa.</p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> functools <span class="token keyword">import</span> <span class="token builtin">reduce</span>
 <span class="token keyword">from</span> multipledispatch <span class="token keyword">import</span> dispatch
@@ -286,8 +282,3 @@ equivalences <span class="token operator">=</span> <span class="token string">"0
 <br>	
 <br>	
 
-    </div>
-  </div>
-</body>
-
-</html>
