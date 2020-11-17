@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html>
+---
+title: README.md
+extensions:
+ emoji:
+    shortcuts: true
+ markdown:
+    table: true
+ katex:
+    enabled: true   
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
+---
 
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="conversor-de-sistemas-numéricos-en-python-snake">Conversor de Sistemas Numéricos en Python 🐍</h1>
+<h1 id="conversor-de-sistemas-numéricos-en-python-snake">Conversor de Sistemas Numéricos en Python 🐍</h1>
 <p>Primero, importamos los módulos necesarios para el funcionamiento del programa.</p>
 <pre class=" language-python"><code class="prism  language-python"><span class="token keyword">from</span> functools <span class="token keyword">import</span> <span class="token builtin">reduce</span>
 <span class="token keyword">from</span> multipledispatch <span class="token keyword">import</span> dispatch
@@ -276,7 +277,4 @@ equivalences <span class="token operator">=</span> <span class="token string">"0
 </li>
 </ol>
 </section>
-</div>
-</body>
 
-</html>
