@@ -139,7 +139,7 @@ return reduce(
 ...
 )
 ```
--  Una función [^1], repetida por cada elemento de `string_list`, que recibe dos parámetros:
+-  Una función[^1], repetida por cada elemento de `string_list`, que recibe dos parámetros:
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
 	
@@ -149,12 +149,18 @@ return reduce(
 	
 	Y ejecuta la siguiente operación
 	
-	> $\boldsymbol{a+c_{1} \cdot b^{(l-c_{0}-1)}}$
+	<img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\boldsymbol{a&plus;c_{1}&space;\cdot&space;b^{\(l-c_{0}-1\)}}" title="\large \boldsymbol{a+c_{1} \cdot b^{\(l-c_{0}-1\)}}" />
+	
 	>**Dónde**:
+	>
 	> a = acc
+	>
 	> 	c~0~ = curr[0]  = índice del elemento actual
+	>
 	> c~1~= curr[1] = valor del elemento actual
+	>
 	> 	b = valor de `from_base`
+	>
 	> l = len(num) = longitud de la variable `num`
 	
 	...sumando todos los elementos.
@@ -162,10 +168,10 @@ return reduce(
 	Por ejemplo:
 	```python
 	>>> reduce(lambda a,b: a+b,[1, 2, 3], 0)
-	>>> 6
+	6
 	```
 	
--  Un método<sup><a href="">[3]</a></sup> que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
+-  Un método[^3] que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
 	```python
 	enumerate(string_list)
 	```
@@ -298,12 +304,12 @@ def converter(num: str, from_base: int, to_base: int) -> str:
     return dec_to_base(base_to_dec(num, from_base), to_base)
 ```
 
-<br>	
-<br>	
-<br>	
+<br><br><br>
 
-[^1]: Source: https://www.w3schools.com/python/python_lambda.asp
+### References
 
-[^2]: Source: [https://docs.python.org/3/library/functools.html#functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
+[^1]: https://www.w3schools.com/python/python_lambda.asp
 
-[^3]: Source: [https://www.w3schools.com/python/ref_func_enumerate.asp](https://www.w3schools.com/python/ref_func_enumerate.asp)
+[^2]: https://docs.python.org/3/library/functools.html#functools.reduce
+
+[^3]: https://www.w3schools.com/python/ref_func_enumerate.asp
