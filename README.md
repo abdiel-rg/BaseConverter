@@ -301,13 +301,3 @@ def converter(num: int, to_base: int) -> str:
 def converter(num: str, from_base: int, to_base: int) -> str:
     return dec_to_base(base_to_dec(num, from_base), to_base)
 ```
-
-<br><br><br>
-
-### References
-
-[^1]: https://www.w3schools.com/python/python_lambda.asp
-
-[^2]: https://docs.python.org/3/library/functools.html#functools.reduce
-
-[^3]: https://www.w3schools.com/python/ref_func_enumerate.asp
