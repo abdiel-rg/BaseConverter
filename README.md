@@ -124,7 +124,7 @@ Llamamos a la función `valid_base` (el cual definiremos más adelante) para val
 ```python
 valid_base(from_base)
 ```
-Declaramos la variable `string_list` de tipo `map` que recorre `num` y, por medio de una función<sup>[^1]</sup>, crea una nueva lista cuyos valores son los índices de cada elemento en `equivalences`.
+Declaramos la variable `string_list` de tipo `map` que recorre `num` y, por medio de una función<sup><a href="https://www.w3schools.com/python/python_lambda.asp">1</a></sup>, crea una nueva lista cuyos valores son los índices de cada elemento en `equivalences`.
 ```python
 string_list = map(lambda  x: equivalences.find(x), num)
 ```
@@ -134,13 +134,13 @@ Esto tiene el efecto de *"traducir"* el carácter a su número correspondiente:
 num = "9C4"
 string_list = [ 9, 12, 4 ]
 ```
-Retornamos el resultado de un método<sup>[^2]</sup> `reduce` con los siguientes parámetros:
+Retornamos el resultado de un método<sup><a target="blank" href="https://docs.python.org/3/library/functools.html#functools.reduce">2</a></sup> `reduce` con los siguientes parámetros:
 ```python
 return reduce(
 ...
 )
 ```
--  Una función<sup>[^1]</sup>, repetida por cada elemento de `string_list`, que recibe dos parámetros:
+-  Una función<sup><a href="https://www.w3schools.com/python/python_lambda.asp">1</a></sup>, repetida por cada elemento de `string_list`, que recibe dos parámetros:
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
 		<br>
@@ -168,8 +168,8 @@ return reduce(
 	>>> reduce(lambda a,b: a+b,[1, 2, 3], 0)
 	6
 	```
-	
--  Un método<sup>[^3]</sup> que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
+
+-  Un método<sup><a target="blank" href="https://www.w3schools.com/python/ref_func_enumerate.asp">3</a></sup> que, para cada elemento, devuelve un objeto que contiene el índice, en el posición 0; el valor, en la posición 1; entre otras cosas.
 	```python
 	enumerate(string_list)
 	```
