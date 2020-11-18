@@ -68,6 +68,7 @@ Dentro del ciclo `while`:
 		```python
 		>>> equivalences[0]
 		0
+		
 		>>> equivalences[11]
 		"A"
 		```
@@ -253,7 +254,7 @@ De nuevo, una línea antes de la declaración de la función, agregamos el decor
  ```
  ...con sus respectivos parámetros, para que la función correcta sea seleccionada en tiempo de ejecución.
 
-### Función `converter` completa
+### Función `converter` sobrecargada
 
 ```python
 @dispatch(str, int, int)
