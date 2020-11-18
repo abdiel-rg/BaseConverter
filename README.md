@@ -5,7 +5,7 @@ Primero, importamos los módulos necesarios para el funcionamiento del programa.
 from functools import reduce
 from multipledispatch import dispatch
 ```
-Cabe destacar que no usaremos estos módulos para hacer la conversión en sí sino, mas bien, para agregar funcionalidades útiles tales como `reduce` y sobrecarga de métodos.
+Cabe destacar que no usaremos estos módulos para hacer la conversión en sí sino, más bien, para agregar funcionalidades útiles tales como `reduce` y sobrecarga de métodos.
 
 Declaramos una variable de tipo `string` que almacenará los valores equivalentes de cada carácter.
 ```python
