@@ -144,10 +144,10 @@ return reduce(
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
 		<br>
-	
 	```python
 	lambda  acc, curr: acc + curr[1] * from_base ** (len(num) - curr[0] - 1),
 	```
+	<br>
 	
 	Y ejecuta la siguiente operación
 	
