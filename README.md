@@ -154,7 +154,7 @@ return reduce(
 	<img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\boldsymbol{a&plus;c_{1}&space;\cdot&space;b^{\(l-c_{0}-1\)}}" title="\large \boldsymbol{a+c_{1} \cdot b^{\(l-c_{0}-1\)}}" />
 	<br>
 	
-	> **Dónde**:
+	> **Dónde**:<br>
 	> a = acc<br>
 	> c~0~ = curr[0]  = índice del elemento actual<br>
 	> c~1~= curr[1] = valor del elemento actual<br>
