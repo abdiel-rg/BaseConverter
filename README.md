@@ -166,7 +166,7 @@ return reduce(
 	
 	Por ejemplo:
 	```python
-	>>> reduce(lambda a,b: a+b,[1, 2, 3], 0)
+	>>> reduce(lambda a,b: a+b, [1, 2, 3], 0)
 	6
 	```
 
