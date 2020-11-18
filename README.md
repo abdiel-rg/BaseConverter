@@ -153,17 +153,12 @@ return reduce(
 	<img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\boldsymbol{a&plus;c_{1}&space;\cdot&space;b^{\(l-c_{0}-1\)}}" title="\large \boldsymbol{a+c_{1} \cdot b^{\(l-c_{0}-1\)}}" />
 	<br>
 	
-	**Dónde**:
-	
-	 a = acc
-	
-	 c~0~ = curr[0]  = índice del elemento actual
-	
-	 c~1~= curr[1] = valor del elemento actual
-	
-	 b = valor de `from_base`
-	
-	 l = len(num) = longitud de la variable `num`
+	> **Dónde**:
+	> a = acc
+	> c~0~ = curr[0]  = índice del elemento actual
+	> c~1~= curr[1] = valor del elemento actual
+	> b = valor de `from_base`
+	> l = len(num) = longitud de la variable `num`
 	
 	...sumando todos los elementos.
 	
