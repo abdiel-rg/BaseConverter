@@ -124,7 +124,7 @@ Llamamos a la función `valid_base` (el cual definiremos más adelante) para val
 ```python
 valid_base(from_base)
 ```
-Declaramos la variable `string_list` de tipo `map` que recorre `num` y, por medio de una función[^1], crea una nueva lista cuyos valores son los índices de cada elemento en `equivalences`.
+Declaramos la variable `string_list` de tipo `map` que recorre `num` y, por medio de una función<sup>[^1]</sup>, crea una nueva lista cuyos valores son los índices de cada elemento en `equivalences`.
 ```python
 string_list = map(lambda  x: equivalences.find(x), num)
 ```
@@ -134,13 +134,13 @@ Esto tiene el efecto de *"traducir"* el carácter a su número correspondiente:
 num = "9C4"
 string_list = [ 9, 12, 4 ]
 ```
-Retornamos el resultado de un método[^2] `reduce` con los siguientes parámetros:
+Retornamos el resultado de un método<sup>[^2]</sup> `reduce` con los siguientes parámetros:
 ```python
 return reduce(
 ...
 )
 ```
--  Una función[^1], repetida por cada elemento de `string_list`, que recibe dos parámetros:
+-  Una función<sup>[^1]</sup>, repetida por cada elemento de `string_list`, que recibe dos parámetros:
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
 	
