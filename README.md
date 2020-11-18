@@ -306,7 +306,7 @@ def converter(num: str, from_base: int, to_base: int) -> str:
 
 ### References
 
-[^1]: Source: https://www.w3schools.com/python/python_lambda.asp
+[^1]: https://www.w3schools.com/python/python_lambda.asp
 
 [^2]: https://docs.python.org/3/library/functools.html#functools.reduce
 
