@@ -154,11 +154,11 @@ return reduce(
 	<br>
 	
 	> **Dónde**:
-	> a = acc
-	> c~0~ = curr[0]  = índice del elemento actual
-	> c~1~= curr[1] = valor del elemento actual
-	> b = valor de `from_base`
-	> l = len(num) = longitud de la variable `num`
+	> a = acc<br>
+	> c~0~ = curr[0]  = índice del elemento actual<br>
+	> c~1~= curr[1] = valor del elemento actual<br>
+	> b = valor de `from_base`<br>
+	> l = len(num) = longitud de la variable `num`<br>
 	
 	...sumando todos los elementos.
 	
