@@ -143,6 +143,7 @@ return reduce(
 -  Una función<sup>[^1]</sup>, repetida por cada elemento de `string_list`, que recibe dos parámetros:
 	-  `acc`: variable acumulativa
 	- `curr`: elemento actual
+		<br>
 	
 	```python
 	lambda  acc, curr: acc + curr[1] * from_base ** (len(num) - curr[0] - 1),
