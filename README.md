@@ -152,8 +152,8 @@ return reduce(
 	
 	Y ejecuta la siguiente operación
 	
-	![\color{gray}
-\boxed{a + c_{1} \cdot b^{l - c_{0} - 1}}](https://render.githubusercontent.com/render/math?math=%5CHuge+%5Cdisplaystyle+%5Ccolor%7Bgray%7D%0A%5Cboxed%7Ba+%2B+c_%7B1%7D+%5Ccdot+b%5E%7Bl+-+c_%7B0%7D+-+1%7D%7D)
+	![\color{lightblue}
+\boxed{a + c_{1} \cdot b^{l - c_{0} - 1}}](https://render.githubusercontent.com/render/math?math=%5CHuge+%5Cdisplaystyle+%5Ccolor%7Blightblue%7D%0A%5Cboxed%7Ba+%2B+c_%7B1%7D+%5Ccdot+b%5E%7Bl+-+c_%7B0%7D+-+1%7D%7D)
 	
 	> **Dónde**:<br>
 	> a = acc<br>
