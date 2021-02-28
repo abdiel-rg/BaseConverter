@@ -152,7 +152,7 @@ return reduce(
 	
 	Y ejecuta la siguiente operación
 	
-	<img src="https://latex.codecogs.com/svg.latex?\huge&space;a&space;&plus;&space;c_{1}&space;\cdot&space;b^{l&space;-&space;c_{0}&space;-&space;1}" title="\huge a + c_{1} \cdot b^{l - c_{0} - 1}?sanitize=true" />
+	![a + c_{1} \cdot b^{l - c_{0} - 1}](https://render.githubusercontent.com/render/math?math=%5CHuge+%5Cdisplaystyle+a+%2B+c_%7B1%7D+%5Ccdot+b%5E%7Bl+-+c_%7B0%7D+-+1%7D)
 	
 	> **Dónde**:<br>
 	> a = acc<br>
